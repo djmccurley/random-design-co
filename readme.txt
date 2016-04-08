@@ -1,0 +1,1 @@
+This is a project for my MCAD WebDev1 course using HTML5 Boilerplate. 
