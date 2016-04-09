@@ -95,14 +95,54 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* global styles */
 
+/* paul irish border box */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+/** { 
+border: 1px solid red;}
+*/
+h1, h2 {
+    text-transform: uppercase;
+}
 
+/* header styles */
 
+.navbar {
+    width: 100%;
+    padding: 0em 1em;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
+.navbar h1 {
+    font-size: 1.25em;
+    float: left;
+}
 
+.navbar a:link, .navbar a:visited {
+    color: #fff;
+    text-decoration: none;
+}
 
+nav {
+    font-size: 1.25em;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%); /* from css-tricks */
+}
 
+/* main styles */
 
 
 
