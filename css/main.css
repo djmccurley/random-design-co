@@ -97,7 +97,6 @@ textarea {
 
 /* global styles */
 
-/* paul irish border box */
 html {
   box-sizing: border-box;
 }
@@ -105,27 +104,34 @@ html {
   box-sizing: inherit;
 }
 
-/** { 
-border: 1px solid red;}
-*/
+/** {border: 1px solid red;}*/
+
 h1, h2 {
     text-transform: uppercase;
 }
 
+body {
+    padding-top: 2.75em;
+}
+
+img {
+    width: 100%;
+}
 /* header styles */
 
 .navbar {
     width: 100%;
-    padding: 0em 1em;
+    padding: .5em 1em;
     background-color: #000;
     color: #fff;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .navbar h1 {
-    font-size: 1.25em;
+    font-size: 1em;
     float: left;
 }
 
@@ -135,21 +141,59 @@ h1, h2 {
 }
 
 nav {
-    font-size: 1.25em;
+    font-size: 1em;
     position: absolute;
     right: 1em;
     top: 50%;
     transform: translateY(-50%); /* from css-tricks */
 }
 
-/* main styles */
+/* .call styles */
+
+section.call {
+    position: relative;
+}
+
+.call-copy {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 
+.call h2 {
+    width: 100%;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #fff;
+    line-height: 1em;
+}
 
+span.block {
+    display: block;
+}
 
+.call a {
+    width: 140px;
+    display: block;
+    padding: 1em 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
+.call a:link, .call a:visited {
+    color: #fff;
+    border: thin solid #fff;
+}
 
-
+.call a:hover, .call a:active, .call a:focus {
+    background-color: #fff;
+    color: #240425;
+}
 
 /* ==========================================================================
    Helper classes
