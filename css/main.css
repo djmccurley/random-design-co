@@ -186,15 +186,16 @@ span.block {
     text-decoration: none;
 }
 
-.call a:link, .call a:visited {
-    color: #fff;
-    border: thin solid #fff;
-}
+    .call a:link, .call a:visited {
+        color: #fff;
+        border: thin solid #fff;
+    }
 
-.call a:hover, .call a:active, .call a:focus {
-    background-color: #fff;
-    color: #240425;
-}
+    .call a:hover, .call a:active, .call a:focus {
+        background-color: #fff;
+        color: #240425;
+        transition: .2s ease all;
+    }
 
 /* .copy/.portofio styles */
 
@@ -208,6 +209,44 @@ span.block {
 }
 
 /* .project tile styles */
+
+.project {
+    width: 50%;
+    float: left;
+    border: thin solid #fff;
+    position: relative;
+}
+
+.project a {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+    .project a:link, .project a:visited {
+        background-color: hsla(0, 100%, 100%, .75);
+        color: #222;
+    }
+
+    .project a:hover, .project a:focus {
+        background-color: hsla(0, 0%, 0%, .50);
+        color: #fff;
+        transition: .2s ease all;
+    }
+
+.project h2 {
+    margin: 0;
+    padding: 0; /* margin and padding zeroed out to fix centering*/
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;   
+}
+
+/* footer styles */
 
 
 /* ==========================================================================
