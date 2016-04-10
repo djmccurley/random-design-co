@@ -152,7 +152,8 @@ nav {
 
 section.call {
     position: relative;
-}
+    border-bottom: thin solid #ccc;
+} 
 
 .call-copy {
     position: absolute;
@@ -194,6 +195,20 @@ span.block {
     background-color: #fff;
     color: #240425;
 }
+
+/* .copy/.portofio styles */
+
+.copy, .portfolio {
+    padding: 2em 1em 1.5em 1em;
+    border-bottom: thin solid #ccc;
+}
+
+.copy h2, .portfolio h2 {
+    font-size: 1em;
+}
+
+/* .project tile styles */
+
 
 /* ==========================================================================
    Helper classes
