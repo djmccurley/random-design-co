@@ -104,7 +104,7 @@ html {
   box-sizing: inherit;
 }
 
-/** {border: 1px solid red;}*/
+    /** {border: 1px solid red;}*/
 
 h1, h2 {
     text-transform: uppercase;
@@ -153,17 +153,16 @@ nav {
 section.call {
     position: relative;
     border-bottom: thin solid #ccc;
+    margin: 0;
+    padding: 0;
 } 
 
-.call-copy {
+.call h2 {
+    margin: 0;
+    padding: 0;
     position: absolute;
-    width: 100%;
     top: 50%;
     transform: translateY(-50%);
-}
-
-
-.call h2 {
     width: 100%;
     font-size: 3.5rem;
     text-align: center;
@@ -179,6 +178,7 @@ span.block {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    top: 70%;
     padding: 1em 1em;
     text-align: center;
     text-transform: uppercase;
