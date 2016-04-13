@@ -232,12 +232,11 @@ span.block {
     }
 
 .project h3 {
-    margin: 0;
-    padding: 0; /* margin and padding zeroed out to fix centering*/
+    margin: 0;/* margin azeroed out to fix centering*/
     position: absolute;
-    width: 100%;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;   
 }
 
