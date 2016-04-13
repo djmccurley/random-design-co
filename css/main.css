@@ -106,7 +106,7 @@ html {
 
     /** {border: 1px solid red;}*/
 
-h1, h2 {
+h1, h2, h3 {
     text-transform: uppercase;
 }
 
@@ -235,7 +235,7 @@ span.block {
         transition: .2s ease all;
     }
 
-.project h2 {
+.project h3 {
     margin: 0;
     padding: 0; /* margin and padding zeroed out to fix centering*/
     position: absolute;
